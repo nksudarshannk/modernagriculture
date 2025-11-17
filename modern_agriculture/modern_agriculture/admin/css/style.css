@@ -1,0 +1,136 @@
+/* Top Header Styles */
+.top-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: navy;
+    padding: 10px;
+    z-index: 1000;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-title {
+    font-size: 24px;
+    text-align: center;
+    font-weight:bold;
+    flex-grow: 1;
+}
+
+.logout-btn {
+    background-color: #e74a3b;
+    border: none;
+    padding: 8px 12px;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+     
+      .sidebar {
+        position: fixed;
+        top: 60px;
+        left: 0;
+        width: 200px;
+        border-left: 3px solid #000;
+        height: 100%;
+        background-color: black;
+        color: white;
+        padding-top: 20px;
+        transition: transform 0.3s ease;
+    }
+    
+    .sidebar.collapsed {
+        transform: translateX(-200px); 
+    }
+    
+    .sidebar a {
+        display: block;
+        color: white;
+        text-align: left;
+        padding: 12px;
+        text-decoration: none;
+    }
+    
+    .sidebar a:hover {
+        text-decoration: none;
+        background-color: orange;
+        color: white;
+    }
+    
+ 
+    .content {
+        margin-left: 200px; 
+        padding: 20px;
+        margin-top: 80px;
+    }
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 150px;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-link {
+    display: block;
+    color: #007bff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.card-link:hover {
+    text-decoration: none;
+}
+.th a{
+    text-decoration: none;
+}
+table {
+    background-color: #f9f9f9;
+}
+.table-bordered th, .table-bordered td {
+    border: 1px solid #dee2e6 !important;
+}
+.btn-warning {
+    color: #fff;
+    background-color: #f0ad4e;
+    border-color: #eea236;
+}
+.btn-danger {
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+}
+.toggle-btn {
+    background-color: #007bff;  
+    color: #fff;  
+    border: none;  
+    padding: 15px 20px;  
+    border-radius: 50%;  
+    font-size: 28px;  
+    font-weight: bold; 
+    cursor: pointer;  
+    transition: all 0.3s ease-in-out; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  
+}
+
+.toggle-btn:hover {
+    background-color: #0056b3;  
+    transform: scale(1.1); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);  
+}
+
+.toggle-btn:focus {
+    outline: none;  
+    box-shadow: 0 0 0 4px rgba(0, 123, 255, 0.4);  
+}
+
